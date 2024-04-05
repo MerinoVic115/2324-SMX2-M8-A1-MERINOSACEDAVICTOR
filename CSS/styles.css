@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "League Spartan", sans-serif;
+}
+
+section {
+    max-width: 600px; 
+    width: 100%;
+    padding: 0 20px; 
+    margin: 0 auto; 
+    font-family: "League Spartan", sans-serif;
+    
+}
+
+#prueba1, #prueba2 {
+    display: none; 
+    font-family: "League Spartan", sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+    section {
+        max-width: 100%; 
+    }
+
+    #prueba1, #prueba2 {
+        display: block; 
+    }
+}
+
+a {
+    color: green; 
+    font-family: "League Spartan", sans-serif;
+}
+
+p {
+    text-align: justify;
+    font-family: "League Spartan", sans-serif;
+}
+
+#tituloesp{
+    font-family: "Special Elite", system-ui;
+}
+
+.personajesimg{
+    width: 80%;
+    height: 300px;
+    text-align: center;
+    font-family: "League Spartan", sans-serif;
+}
+
+.bloque img {
+    margin-top: 35px;
+    margin: 5px;
+    font-family: "League Spartan", sans-serif;
+}
+
+
+.contenedor {
+    position: relative;
+    text-align: center; /* Para centrar el texto */
+    font-family: "League Spartan", sans-serif;
+}
+
+.pruebacabecera {
+    width: 100%; /* Ajustar el tamaño de la imagen según sea necesario */
+    height: 600px; /* Mantener la proporción de la imagen */
+    font-family: "League Spartan", sans-serif;
+}
+
+.textosobreimagen{
+    position: absolute;
+    top: 50%; /* Posición verticalmente centrada */
+    left: 55%; /* Posición horizontalmente centrada */
+    transform: translate(-50%, -50%); /* Centrar el texto exactamente en el centro */
+    color: white; /* Color del texto */
+    font-size: 24px; /* Tamaño del texto */
+    font-weight: bold; /* Negrita */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra del texto */
+    font-family: "League Spartan", sans-serif;
+}
+
+.league-spartan{
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-family: "League Spartan", sans-serif;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: rgb(254, 254, 254);
+    width: 100%;
+    padding: 26px;
+    font-family: "League Spartan", sans-serif;  
+}
+
+
+
+
